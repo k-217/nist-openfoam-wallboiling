@@ -479,7 +479,7 @@ def main():
 
     species_key = species.strip().lower()
     if species_key not in CAS_LOOKUP:
-        sys.exit(f"Unknown species '{species}'.)
+        sys.exit(f"Unknown species '{species}'.")
     species_id = "C" + CAS_LOOKUP[species_key].replace("-", "")
     print(f"Using NIST WebBook ID: {species_id}")
 
