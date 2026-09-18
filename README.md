@@ -2,6 +2,8 @@
 
 `nist-openfoam-wallboiling.py` is a Python utility that fetches thermophysical and transport property data directly from the [NIST Chemistry WebBook](https://webbook.nist.gov/chemistry/fluid/) and formats it into OpenFOAM-style property tables. It can be directly used for wall boiling or other multiphase simulations (`multiphaseEulerFoam`), where phase properties be evaluated across subcooled, saturated, and superheated regimes.
 
+Reference files for the OpenFOAM expected input are obtained from [OpenFOAM 12 Resources](https://github.com/OpenFOAM/OpenFOAM-12/tree/master/tutorials/resources/thermoData). 
+
 ---
 
 ## Usage
