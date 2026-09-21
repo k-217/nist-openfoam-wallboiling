@@ -75,6 +75,8 @@ CAS_LOOKUP = {
     "xenon": "7440-63-3",
     "krypton": "7439-90-9",
     "neon": "7440-01-9",
+    "d2o": "7789-20-0",
+    "r12": "75-71-8",
 }
 
 COMMON_PARAMS = dict(
